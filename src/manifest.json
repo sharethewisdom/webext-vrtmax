@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Vrtmax tweaks",
+  "version": "0.1.0",
+  "description": "Tweaks for the video player on www.vrt.be/vrtnu/, sporza.be and dagelijksekost.een.be",
+  "permissions": [
+    "https://www.vrt.be/vrtnu/*",
+    "https://sporza.be/*",
+    "https://dagelijksekost.een.be/*"
+  ],
+  "icons": {
+    "64": "assets/icon/64.png",
+    "128": "assets/icon/128.png",
+    "256": "assets/icon/256.png"
+  },
+  "options_ui": {
+    "page": "options/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.vrt.be/vrtnu/a-z/*",
+        "https://sporza.be/*",
+        "https://dagelijksekost.een.be/*"
+      ],
+      "run_at": "document_start",
+      "js": [ "player.js" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ {
+  "addons": {
+  	"{}": {
+       "updates": [
+         {
+           "version": "0.1",
+           "update_link": "https://github.com/sharethewisdom/webext-vrtmax/releases/download/0.1/webext-vrtmax-0.1-fx.xpi"
+         }
+       ]
+     }
+   }
+ }

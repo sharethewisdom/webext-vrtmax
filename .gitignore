@@ -1,0 +1,10 @@
+*
+!.gitignore
+!LICENSE
+!README.md
+!src
+!src/*
+!src/icon/*.png
+!web-ext-config.js
+!updates.json
+!web-ext-config.js
